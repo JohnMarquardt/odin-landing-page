@@ -1,6 +1,9 @@
+* {
+    font-family: "Roboto";
+}
+
 body {
     margin: 0px;
-    font-family: 'Roboto';
 }
 
 .header {
@@ -49,14 +52,17 @@ ul {
     color: white;
     display: flex;
     flex-direction: column;
-    height: 200px;
-    width: 300px;
+    margin-left: 32px;
+    margin-right: 32px;
+
 }
 
 .hero-main-text {
     font-size: 48px;
     font-weight: 900;
     color: #F9FAF8;
+    margin-bottom: 0px;
+    margin-top: 0px;
 }
 
 .hero-secondary-text {
@@ -64,3 +70,11 @@ ul {
     color: #E5E7EB;
 }
 
+.button {
+    background-color: #3882F6;
+    border-color: #E5E7EB;
+    border-radius: 10px;
+    height: 30px;
+    width: 100px;
+    color: #E5E7EB
+}
