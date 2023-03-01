@@ -1,13 +1,8 @@
-* {
-    font-family: "Roboto";
-}
-
 body {
     margin: 0px;
 }
 
 .header {
-    color: white;
     background-color: #1F2937;
     display: flex;
     justify-content: space-around;
@@ -34,14 +29,13 @@ ul {
 .content-one {
     display: flex;
     background-color: #1F2937;
-    justify-content: space-around;
-    padding: 64px;
+    justify-content: center;
 }
 
 .content-one-right {
     color: white;
-    height: 200px;
-    width: 400px;
+    height: 300px;
+    width: 600px;
     background-color: grey;
     display: flex;
     justify-content: center;
@@ -51,7 +45,9 @@ ul {
 .content-one-left {
     color: white;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
+    justify-content: center;
     margin-left: 32px;
     margin-right: 32px;
 
